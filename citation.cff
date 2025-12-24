@@ -8,8 +8,8 @@ authors:
   given-names: "Rodrigo B."
 - family-names: "Bueno"
   given-names: "Douglas D."
-title: "Flapping-Wing-Beam-Simulation"
+title: "Euler--Bernoulli Beam Model for Flapping Wings"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
+doi: 
 date-released: 2025-12-24
 url: "https://github.com/vitordmarchiori/Flapping-Wing-Beam-Simulation"
