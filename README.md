@@ -2,7 +2,9 @@
 
 This repository provides a MATLAB implementation of a finite-element Euler–Bernoulli beam model with prescribed root rotation, time integration via Runge–Kutta (RK4), and a solar power proxy based on the dot product between the Sun vector and time-varying local surface normals inferred from nodal rotations. The workflow supports parametric sweeps in flapping frequency and amplitude, as well as different PV element “block” placements along the span.
 
-![ ](/Figures/euler-bernoulli_beam.png)
+<p align="center">
+  <img src="Figures/euler-bernoulli_beam.png" alt="Euler-Bernoulli Beam Simulation" width="100%">
+</p>
 
 ## Key capabilities
 - Euler–Bernoulli beam FE model:
