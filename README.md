@@ -1,5 +1,4 @@
 <div align="center">
-<h1>RenderCV</h1>
 
 # Euler–Bernoulli Beam Model for Flapping Wings
 
