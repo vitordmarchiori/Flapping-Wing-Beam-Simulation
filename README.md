@@ -1,4 +1,9 @@
+<div align="center">
+<h1>RenderCV</h1>
+
 # Euler–Bernoulli Beam Model for Flapping Wings
+
+</div>
 
 This repository provides a MATLAB implementation of a finite-element Euler–Bernoulli beam model with prescribed root rotation, time integration via Runge–Kutta (RK4), and a solar power proxy based on the dot product between the Sun vector and time-varying local surface normals inferred from nodal rotations. The workflow supports parametric sweeps in flapping frequency and amplitude, as well as different PV element “block” placements along the span.
 
