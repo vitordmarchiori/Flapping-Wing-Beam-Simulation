@@ -1,9 +1,10 @@
-<div align="center">
+<h1 align="center">Euler–Bernoulli Beam Model for Flapping Wings</h1>
 
-# Euler–Bernoulli Beam Model for Flapping Wings
-</div>
+<p align="center">
+  This repository provides a MATLAB implementation of a finite-element Euler–Bernoulli beam model with prescribed root rotation, time integration via Runge–Kutta (RK4), and a solar power proxy based on the dot product between the Sun vector and time-varying local surface normals inferred from nodal rotations. The workflow supports parametric sweeps in flapping frequency and amplitude, as well as different PV element “block” placements along the span.
+</p>
 
-This repository provides a MATLAB implementation of a finite-element Euler–Bernoulli beam model with prescribed root rotation, time integration via Runge–Kutta (RK4), and a solar power proxy based on the dot product between the Sun vector and time-varying local surface normals inferred from nodal rotations. The workflow supports parametric sweeps in flapping frequency and amplitude, as well as different PV element “block” placements along the span.
+<br>
 
 <p align="center">
   <img src="Figures/euler-bernoulli_beam.png" alt="Euler-Bernoulli Beam Simulation" width="100%">
@@ -26,6 +27,32 @@ This repository provides a MATLAB implementation of a finite-element Euler–Ber
 ## Requirements
 - MATLAB R20XXa or later
 - Signal Processing Toolbox recommended (for `pwelch` / `spectrogram`)
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="Figures/Power.png">
+        <img src="Figures/Power.png" width="260" alt="Effect of Irradiance">
+      </a>
+      <br>
+      <sub><b>Power generation</b></sub>
+    </td>
+    <td align="center">
+      <a href="Figures/PSD.png">
+        <img src="Figures/PSD.png" width="260" alt="Effect of Temperature">
+      </a>
+      <br>
+      <sub><b>PSD</b></sub>
+    </td>
+    <td align="center">
+      <a href="Figures/Spectrogram.png">
+        <img src="Figures/Spectrogram.png" width="260" alt="Effect of Rsh">
+      </a>
+      <br>
+      <sub><b>Spectrogram</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## Assumptions and limitations (summary)
 - Structural model: linear Euler–Bernoulli bending with small strains.
