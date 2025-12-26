@@ -23,36 +23,36 @@
   - PV block placement along nodes
 - Spectral post-processing:
   - Welch PSD and spectrogram of total power signal
-
-## Requirements
-- MATLAB R20XXa or later
-- Signal Processing Toolbox recommended (for `pwelch` / `spectrogram`)
-
+ 
 <table align="center">
   <tr>
     <td align="center">
       <a href="Figures/Power.png">
-        <img src="Figures/Power.png" width="260" alt="Effect of Irradiance">
+        <img src="Figures/Power.png" width="260" alt="POWER">
       </a>
       <br>
       <sub><b>Power generation</b></sub>
     </td>
     <td align="center">
       <a href="Figures/PSD.png">
-        <img src="Figures/PSD.png" width="260" alt="Effect of Temperature">
+        <img src="Figures/PSD.png" width="260" alt="PSD">
       </a>
       <br>
       <sub><b>PSD</b></sub>
     </td>
     <td align="center">
       <a href="Figures/Spectrogram.png">
-        <img src="Figures/Spectrogram.png" width="260" alt="Effect of Rsh">
+        <img src="Figures/Spectrogram.png" width="260" alt="SPECTROGRAM">
       </a>
       <br>
       <sub><b>Spectrogram</b></sub>
     </td>
   </tr>
 </table>
+
+## Requirements
+- MATLAB R20XXa or later
+- Signal Processing Toolbox recommended (for `pwelch` / `spectrogram`)
 
 ## Assumptions and limitations (summary)
 - Structural model: linear Euler–Bernoulli bending with small strains.
